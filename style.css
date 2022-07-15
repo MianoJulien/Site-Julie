@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: "Cormorant Garamond", serif;
+}
+
+nav {
+  display: flex;
+  height: 60px;
+}
+
+ul {
+  display: flex;
+  padding: 10px 10px;
+  align-items: center;
+}
+
+li {
+  display: flex;
+  padding: 0 10px;
+}
+
+nav li a {
+  text-decoration-line: none;
+  color: black;
+  transition: 0.4s;
+  font-weight: bold;
+}
+
+nav li a:link:hover {
+  transform: scale(0.9);
+}
+
+.entete {
+  display: flex;
+  height: 645px;
+  background: url(./img/photo-entete-site-julie.jpg) no-repeat center/cover
+    fixed;
+}
+
+.entete h1 {
+  height: 60px;
+  width: 100%;
+  font-size: 6rem;
+  color: rgba(0, 0, 0, 0.49);
+  text-shadow: dimgray;
+  padding: 10px 10px;
+  font-family: "Beau Rivage", cursive;
+}
+
+.info {
+  height: 500px;
+  width: 100%;
+}
+
+h2 {
+  text-align: center;
+  padding: 10px;
+  font-size: 2.5rem;
+}
+
+.info p {
+  width: 50%;
+  justify-content: center;
+  margin: 0 auto;
+  font-size: 1.7rem;
+  text-align: justify;
+}
+
+.reseau {
+  height: 300px;
+  background: rgba(255, 219, 232, 0.952);
+  display: block;
+  justify-content: space-around;
+}
+
+.reseau h2 {
+  padding: 40px 0;
+}
+
+.reseau img {
+  text-align: center;
+  height: 40px;
+  margin: 0 20px;
+}
+
+.reseau ul {
+  justify-content: center;
+}
+
+.avant-apres {
+  border-top-width: 80% 2px solid black;
+  height: 650px;
+  width: 100%;
+}
+
+footer {
+  height: 150px;
+  width: 100%;
+  background: rgb(31, 31, 31);
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer ul li a {
+  text-decoration-line: none;
+  color: white;
+  transition: 0.3s;
+}
+
+footer ul li a:hover {
+  transform: scale(1.1);
+}
